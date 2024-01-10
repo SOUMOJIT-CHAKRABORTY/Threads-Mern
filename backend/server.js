@@ -8,7 +8,7 @@ dotenv.config();
 connectDB();
 const app = express();
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 80;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -18,5 +18,5 @@ app.use(cookieParser());
 app.use("/api/users", userRoutes);
 
 app.listen(PORT, () => {
-  console.log("Server started at http://localhost:4000");
+  console.log("Server started at port 80");
 });
