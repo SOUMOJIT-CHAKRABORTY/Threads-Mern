@@ -31,8 +31,8 @@ app.use(cookieParser());
 app.use("/api/users", userRoutes);
 app.use("/api/posts", postRoutes);
 app.use("/api/messages", messageRoutes);
-app.all("*", (req, res) => {
-  res.status(404).json({ msg: " Hello Page not found" });
+app.get("/", (req, res) => {
+  res.send("<h1>Hello</h1>");
 });
 
 server.listen(PORT, () =>
