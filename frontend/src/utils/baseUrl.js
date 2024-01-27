@@ -1,1 +1,1 @@
-export const BASE_URL = "/https://threads-api-eewz.onrender.com";
+export const BASE_URL = "https://threads-api-eewz.onrender.com";
