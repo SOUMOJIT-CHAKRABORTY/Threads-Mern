@@ -15,7 +15,7 @@ export const SocketContextProvider = ({ children }) => {
   const user = useRecoilValue(userAtom);
 
   useEffect(() => {
-    const socket = io("https://threads-mern-api.vercel.app", {
+    const socket = io("https://threads-api-eewz.onrender.com", {
       query: {
         userId: user?._id,
       },
