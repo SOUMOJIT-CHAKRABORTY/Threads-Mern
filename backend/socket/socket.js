@@ -8,7 +8,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://main--prismatic-hamster-40b8d3.netlify.app",
+    origin: "https://threads-mern-frontend.vercel.app",
     methods: ["GET", "POST"],
   },
 });
