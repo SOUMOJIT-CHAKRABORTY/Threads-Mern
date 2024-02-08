@@ -1,4 +1,4 @@
-# Thread MERN Documentation
+# Thread MERN
 
 🌐 Welcome to Thread MERN! 🚀 Connect, share, and inspire on our cutting-edge MERN-powered social media platform. With a seamless blend of MongoDB, Express, React, and Node.js, we're bringing you a dynamic and responsive space for meaningful interactions. 🌟
 
